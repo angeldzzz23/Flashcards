@@ -1,0 +1,39 @@
+body, html {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+.flash-card {
+    width: 900px !important; /* Adjust the width to make the card wider */
+    height: 400px !important; /* Adjust the height to make the card taller */
+    perspective: 1000px;
+    position: relative;
+  }
+  
+  .front,
+  .back {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: transform 0.6s;
+  }
+  
+  .flipped .front {
+    transform: rotateY(180deg);
+  }
+  
+  .flipped .back {
+    transform: rotateY(0deg);
+  }
+  
