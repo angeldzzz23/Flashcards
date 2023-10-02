@@ -1,10 +1,10 @@
 # Web Development Project 2 - *Name of App Here*
 
-Submitted by: **Your Name Here**
+Submitted by: **Angel Zambrano**
 
-This web app: **insert description**
+This web app: **study presidents**
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
@@ -29,6 +29,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
+![cool](https://github.com/angeldzzz23/Flashcards/assets/29695936/04ab85a0-ba6a-4148-8c03-0634abd5c3d9)
 
 
 
